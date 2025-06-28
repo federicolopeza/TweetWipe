@@ -1,6 +1,6 @@
 # 🧹 Tweet Wipe
 
-### *Userscript minimalista para borrar Tweets, Respuestas y Seguidores*
+### *Userscript minimalista para borrar Tweets, Respuestas y Seguidos*
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES2023-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GreasyFork](https://img.shields.io/badge/GreasyFork-Userscript-red)](https://greasyfork.org/)
@@ -20,7 +20,7 @@ El objetivo original de TweetXer era borrar tweets (y más) usando archivos de l
 
 * Elimina la dependencia de archivos.  
 * Añade una **interfaz emergente** con 3 botones:  
-  **Borrar Tweets**, **Borrar Respuestas** y **Borrar Seguidores**.  
+  **Borrar Tweets**, **Borrar Respuestas** y **Borrar Seguidos**.  
 * Mantiene «modo lento» para respetar límites de X/Twitter.  
 * Incluye consola de depuración para ver llamadas `DeleteTweet`.
 
@@ -61,7 +61,7 @@ El objetivo original de TweetXer era borrar tweets (y más) usando archivos de l
 2. Elige una acción:
    - **Borrar Tweets** → limpia la pestaña *Posts/Tweets*.
    - **Borrar Respuestas** → limpia la pestaña *Replies/Respuestas*.
-   - **Borrar Seguidores** → deja de seguir a todas las cuentas.
+   - **Borrar Seguidos** → deja de seguir a todas las cuentas.
 3. Observa la barra de progreso; el proceso es *lento pero seguro* (apx. 1 tweet/seg).
 4. Al terminar, recarga la página para verificar.
 
