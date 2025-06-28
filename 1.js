@@ -211,7 +211,7 @@
                 <div id="start">
                     <button id="deletePosts" style="background:#ff4d4f;border:none;color:#fff;padding:10px 24px;font-size:16px;border-radius:4px;cursor:pointer;margin:4px;">Borrar Tweets</button>
                     <button id="deleteReplies" style="background:#ff9f0a;border:none;color:#fff;padding:10px 24px;font-size:16px;border-radius:4px;cursor:pointer;margin:4px;">Borrar Respuestas</button>
-                    <button id="unfollowBtn" style="background:#6366f1;border:none;color:#fff;padding:10px 24px;font-size:16px;border-radius:4px;cursor:pointer;margin:4px;">Borrar Seguidores</button>
+                    <button id="unfollowBtn" style="background:#6366f1;border:none;color:#fff;padding:10px 24px;font-size:16px;border-radius:4px;cursor:pointer;margin:4px;">Borrar Seguidos</button>
                 </div>
             `
             document.body.appendChild(div)
