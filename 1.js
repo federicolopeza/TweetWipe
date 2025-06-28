@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         TweetFalopp (TweetXer Fork)
-// @namespace    https://github.com/Falopp/tweetFalopp/
+// @name         TweetWipe (TweetXer Fork)
+// @namespace    https://github.com/Falopp/TweetWipe/
 // @version      0.11.0
 // @description  Elimina tus Tweets de forma lenta con un solo botón. Fork simplificado de TweetXer.
 // @author       Falopp (basado en trabajo de Luca Hammer y colaboradores)
@@ -153,7 +153,7 @@
                         TweetsXer.tIds = TweetsXer.tIds.slice(TweetsXer.skip)
                         TweetsXer.dCount = TweetsXer.skip
                         TweetsXer.tIds.reverse()
-                        TweetsXer.updateTitle(`TweetFalopp: Deleting ${TweetsXer.total} Tweets`)
+                        TweetsXer.updateTitle(`TweetWipe: Deleting ${TweetsXer.total} Tweets`)
 
                         TweetsXer.deleteTweets()
                     } else if (TweetsXer.action == 'unfav') {
@@ -162,7 +162,7 @@
                         TweetsXer.tIds = TweetsXer.tIds.slice(TweetsXer.skip)
                         TweetsXer.dCount = TweetsXer.skip
                         TweetsXer.tIds.reverse()
-                        TweetsXer.updateTitle(`TweetFalopp: Deleting ${TweetsXer.total} Favs`)
+                        TweetsXer.updateTitle(`TweetWipe: Deleting ${TweetsXer.total} Favs`)
                         TweetsXer.deleteFavs()
                     } else if (TweetsXer.action == 'undm') {
                         TweetsXer.skip = document.getElementById('skipCount').value.length > 0 ? document.getElementById('skipCount').value : 0
@@ -171,17 +171,17 @@
                         TweetsXer.dCount = TweetsXer.skip
                         TweetsXer.tIds.reverse()
                         if (this.deleteDMsOneByOne) {
-                            TweetsXer.updateTitle(`TweetFalopp: Deleting ${TweetsXer.total} DMs`)
+                            TweetsXer.updateTitle(`TweetWipe: Deleting ${TweetsXer.total} DMs`)
                             TweetsXer.deleteDMs()
                         }
                         else {
-                            TweetsXer.updateTitle(`TweetFalopp: Deleting ${TweetsXer.total} DM Conversations`)
+                            TweetsXer.updateTitle(`TweetWipe: Deleting ${TweetsXer.total} DM Conversations`)
                             TweetsXer.deleteConvos()
                         }
 
                     }
                     else {
-                        TweetsXer.updateTitle(`TweetFalopp: Please try a different file`)
+                        TweetsXer.updateTitle(`TweetWipe: Please try a different file`)
                     }
 
                 }
@@ -206,7 +206,7 @@
             }
             div.style = `position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:320px;background:#1d9bf0;border-radius:8px;padding:24px;text-align:center;z-index:99999;color:#fff;font-family:sans-serif;box-shadow:0 4px 20px rgba(0,0,0,.3);`
             div.innerHTML = `
-                <h2 class="${h2Class}" id="tweetsXer_title" style="margin-top:0;color:#fff;">TweetFalopp</h2>
+                <h2 class="${h2Class}" id="tweetsXer_title" style="margin-top:0;color:#fff;">TweetWipe</h2>
                 <p id="info" style="margin:0 0 16px;">Cargando tu perfil…</p>
                 <div id="start">
                     <button id="deletePosts" style="background:#ff4d4f;border:none;color:#fff;padding:10px 24px;font-size:16px;border-radius:4px;cursor:pointer;margin:4px;">Borrar Tweets</button>
@@ -239,7 +239,7 @@
         },
 
         async exportBookmarks() {
-            TweetsXer.updateTitle('TweetFalopp: Exporting bookmarks')
+            TweetsXer.updateTitle('TweetWipe: Exporting bookmarks')
             let variables = ''
             while (TweetsXer.bookmarksNext.length > 0 || TweetsXer.bookmarks.length == 0) {
                 if (TweetsXer.bookmarksNext.length > 0) {
@@ -312,7 +312,7 @@
             bookmarksDownload.href = window.URL.createObjectURL(download)
             bookmarksDownload.download = 'twitter-bookmarks.json'
             document.getElementById('advanced').appendChild(bookmarksDownload)
-            TweetsXer.updateTitle('TweetFalopp')
+            TweetsXer.updateTitle('TweetWipe')
         },
 
         async sendRequest(
@@ -399,7 +399,7 @@
         },
 
         async deleteFavs() {
-            this.updateTitle('TweetFalopp: Deleting Favs')
+            this.updateTitle('TweetWipe: Deleting Favs')
             // 500 unfavs per 15 Minutes
             // x-rate-limit-remaining
             // x-rate-limit-reset
@@ -409,7 +409,7 @@
                 await this.sendRequest(this.baseUrl + this.unfavURL)
             }
             this.tId = ''
-            this.updateTitle('TweetFalopp')
+            this.updateTitle('TweetWipe')
             this.updateProgressBar()
         },
 
