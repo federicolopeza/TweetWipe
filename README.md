@@ -1,4 +1,4 @@
-# 🧹 TweetFalopp
+# 🧹 Tweet Wipe
 
 ### *Userscript minimalista para borrar Tweets, Respuestas y Seguidores*
 
@@ -9,19 +9,6 @@
 ---
 
 ## 👨‍💻 **Creado por [@Falopp](https://github.com/Falopp)**
-
-**🎯 Desarrollador full-stack • 🤖 Bot-builder • 📊 On-chain Analyst**
-
-Especializado en automatización cripto y herramientas de productividad Web.
-
-### 🛠️ **Otros Proyectos**
-
-| Proyecto | Descripción |
-|----------|-------------|
-| [**data_p2p**](https://github.com/Falopp/data_p2p) | CLI para análisis de transacciones P2P |
-| [**P2P_Profit**](https://github.com/Falopp/P2P_Profit) | Sistema de seguimiento P2P con cálculo P&L |
-| [**crypto_screener_dashboard**](https://github.com/Falopp/crypto_screener_dashboard) | Dashboard de monitoreo cripto en tiempo real |
-| [**CS2_bot_dmarket**](https://github.com/Falopp/CS2_bot_dmarket) | Bot de trading para skins de CS2 |
 
 ---
 
@@ -109,5 +96,3 @@ TweetFalopp/
 ---
 
 **Hecho con 💙 por [@Falopp](https://github.com/Falopp)** &nbsp;&middot;&nbsp; [⭐ Star si te fue útil](https://github.com/Falopp/tweetFalopp) 
-
-Userscript minimalista que borra Tweets, Respuestas y Seguidores en X/Twitter con un solo clic. Fork simplificado de TweetXer, UI emergente y modo lento para evitar rate-limits. 
