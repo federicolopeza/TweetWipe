@@ -8,13 +8,13 @@
 
 ---
 
-## 👨‍💻 **Creado por [@Falopp](https://github.com/Falopp)**
+## 👨‍💻 **Creado por [@federicolopeza](https://github.com/federicolopeza)**
 
 ---
 
-## 📋 **¿Qué es TweetFalopp?**
+## 📋 **¿Qué es Tweetfedericolopeza?**
 
-`TweetFalopp` es un *fork simplificado* de [TweetXer](https://github.com/lucahammer/tweetXer/) de Luca Hammer.
+`Tweetfedericolopeza` es un *fork simplificado* de [TweetXer](https://github.com/lucahammer/tweetXer/) de Luca Hammer.
 
 El objetivo original de TweetXer era borrar tweets (y más) usando archivos de la exportación oficial de datos. Esta versión recortada:
 
@@ -51,7 +51,7 @@ El objetivo original de TweetXer era borrar tweets (y más) usando archivos de l
 
 1. Instala **Violentmonkey** / **Tampermonkey**.  
 2. Crea un nuevo userscript y pega el contenido de `1.js`.  
-3. Guarda. La barra de TweetFalopp aparecerá automáticamente al visitar X.
+3. Guarda. La barra de Tweetfedericolopeza aparecerá automáticamente al visitar X.
 
 ---
 
@@ -70,7 +70,7 @@ El objetivo original de TweetXer era borrar tweets (y más) usando archivos de l
 ## 📁 **Estructura del Repositorio**
 
 ```
-TweetFalopp/
+Tweetfedericolopeza/
 ├── 1.js          # Script principal (userscript)
 ├── README.md     # Este archivo
 ```
@@ -95,4 +95,5 @@ TweetFalopp/
 
 ---
 
-**Hecho con 💙 por [@Falopp](https://github.com/Falopp)** &nbsp;&middot;&nbsp; [⭐ Star si te fue útil](https://github.com/Falopp/tweetFalopp) 
+**Hecho con 💙 por [@federicolopeza](https://github.com/federicolopeza)** &nbsp;&middot;&nbsp; [⭐ Star si te fue útil](https://github.com/federicolopeza/tweetfedericolopeza) 
+
