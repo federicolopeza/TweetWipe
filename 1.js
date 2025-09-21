@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         TweetWipe (TweetXer Fork)
-// @namespace    https://github.com/Falopp/TweetWipe/
+// @namespace    https://github.com/federicolopeza/TweetWipe/
 // @version      0.11.0
 // @description  Elimina tus Tweets de forma lenta con un solo botón. Fork simplificado de TweetXer.
-// @author       Falopp (basado en trabajo de Luca Hammer y colaboradores)
+// @author       federicolopeza (basado en trabajo de Luca Hammer y colaboradores)
 // @license      NoHarm-draft
 // @match        https://x.com/*
 // @match        https://mobile.x.com/*
@@ -1044,3 +1044,4 @@
     })()
 
 })()
+
